@@ -43,7 +43,7 @@ Some or all of these limitations are possibly being implemented currently and ma
 
 - **One EventLoop per thread** - There is a hard limit of one event loop per thread
 - **Manual error management** - The entire library is `nothrow` and error management must be built on top of it.
-- **No embedded HTTP or TLS handlers** - The support fort HTTP, TLS (and other protocols) is only available through vibe.d with Tasks as of yet.
+- **No embedded HTTP or TLS handlers** - The support for HTTP, TLS (and other protocols) is only available through vibe.d with Tasks as of yet.
 
 Installation Instructions
 -------------------------
@@ -58,7 +58,7 @@ Installation Instructions
 Tutorial
 --------
 
-There are many examples available in the `examples/` older. They must be tested by starting the server before the client.
+There are many examples available in the `examples/` folder. They must be tested by starting the server before the client.
 
 All other usage examples are available in `source/libasync/test.d`. 
 
